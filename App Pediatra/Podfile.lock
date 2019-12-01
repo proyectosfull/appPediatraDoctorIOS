@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - Eureka (4.3.1)
+  - ImageRow (3.2.0):
+    - Eureka (~> 4.3)
+  - JWTDecode (2.2.0)
+  - MarqueeLabel/Swift (3.2.1)
+  - MKProgress (1.1.0)
+  - NotificationBannerSwift (2.1.0):
+    - MarqueeLabel/Swift (~> 3.2.1)
+    - SnapKit (~> 4.2.0)
+  - PayPal.Checkout (3.4.6):
+    - syr.core (> 1)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+  - syr.core (1.7.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.0)
+  - Charts
+  - Eureka (~> 4.0)
+  - ImageRow (~> 3.0)
+  - JWTDecode
+  - MKProgress (from `https://github.com/kamirana4/MKProgress.git`)
+  - NotificationBannerSwift
+  - PayPal.Checkout
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Charts
+    - Eureka
+    - ImageRow
+    - JWTDecode
+    - MarqueeLabel
+    - NotificationBannerSwift
+    - PayPal.Checkout
+    - SnapKit
+    - SwiftyJSON
+    - syr.core
+
+EXTERNAL SOURCES:
+  MKProgress:
+    :git: https://github.com/kamirana4/MKProgress.git
+
+CHECKOUT OPTIONS:
+  MKProgress:
+    :commit: bc9b21b2d90ab0c260e57a281e2e7031591bf9d4
+    :git: https://github.com/kamirana4/MKProgress.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Charts: ec1f57f9340054155691e84d4544a1d239d382c5
+  Eureka: 28ea296f06710f6745266b71f17862048941a32d
+  ImageRow: 03681b3ef8034b5a649440325f5d5ba7b22c1b0a
+  JWTDecode: 85a405ab16d5473e99bd89ded1d535090ebd6a0e
+  MarqueeLabel: 2daf039bf916937c8a4c9adfc13577cc5e51b4ce
+  MKProgress: d20757d7483c8dee86d6e7a4abc919473053fbf4
+  NotificationBannerSwift: 4483919639202bec56d6bfe8f106ebc352d38bc7
+  PayPal.Checkout: ac88db9bac9e1a8c3e54b05a891f5dd215aab544
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  syr.core: b9a4c221abbe70276838edbbef490403fbd07d5d
+
+PODFILE CHECKSUM: 350bea209f4decfb5cb274752f9a560b369c0706
+
+COCOAPODS: 1.6.1
